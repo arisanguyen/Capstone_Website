@@ -1,5 +1,12 @@
-# Capstone_Website
-website for capstone SafeSF project
+# SafeSF - Future of Traffic Safety
+
+In the US, 42,000 traffic deaths and millions more injuries occur each year. 31% of the accidents occur in places where no other accidents happened nearby (within 50 meters) within four years.  With prediction machine learning algorithms, our goal is to help reduce traffic accidents within San Francisco by providing a map visualization that warns our users if the road that they plan to take is classified as more dangerous than others.
+
+<img width="1920" height="840" alt="Capture2" src="https://github.com/user-attachments/assets/97b8635e-b01f-4bfa-8478-9dd073c6645d" />
+
+Fig 0. Output of our ML model predicting collisions. 
+
+# Machine Learning Process
 
 ## Recommended Model:
 Multinomial Logistic Regression
