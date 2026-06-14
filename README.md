@@ -22,7 +22,7 @@ Multinomial Logistic Regression
 The Multinomial Logistic Regression model is the recommended model used to predict the multi-class classification bins of traffic collisions. The model was observed to have the highest weighted F1 score and significantly shorter training time compared to the other modeling experiments performed.
 
 <img width="680" height="517" alt="image" src="https://github.com/user-attachments/assets/a4f4a84b-ad30-4e53-a37b-899753797251" />
-<p style="text-align: center;">Fig. A: Multinomial Logistic Regression Model Training Loss Curve</p>
+<div style="text-align: center;">Fig. A: Multinomial Logistic Regression Model Training Loss Curve</div>
 <br>
 
 <img width="602" height="648" alt="image" src="https://github.com/user-attachments/assets/c7f0c0cc-1f3a-4e96-b1af-760f6d5c4869" />
