@@ -147,4 +147,4 @@ The **Multinomial Logistic Regression model** outperformed all of the Convolutio
 
 Over the course of the project, the team discovered zero shot learning techniques, which may be a better choice. This will be explored in the next phase of the project.
 
-[<img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/2edf503d-7a12-41c2-aa58-a3892f49fae9" />Check out our GitHub](https://github.com/arisanguyen/210_Capstone_Aditya_Arisa_Noriel)
+[<img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/7d7d677f-fa60-490d-ac6c-30532de3bf17" />Check out our GitHub](https://github.com/arisanguyen/210_Capstone_Aditya_Arisa_Noriel)
