@@ -9,7 +9,7 @@ In the US, 42,000 traffic deaths and millions more injuries occur each year. 31%
 # Data Sources
 
 - [TransBASE Dashboard - City of San Francisco: Traffic Collision](https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Injury/ubvf-ztfx)
-- [National Oceanic & Atmospheric Administration: Satellite images](https://coast.noaa.gov/dataviewer/#/imagery/search/-13639308.671664422,4538340.267087154,-13620556.11994757,4552710.429571103)
+- [National Oceanic & Atmospheric Administration: Satellite images](https://coast.noaa.gov/dataviewer/#/imagery/search/-13639308.671664422,4538340.267087154,-13620556.11994757,4552710.429571103). High quality satellite images with no cloud coverage. Each image has four (4) bits of information per pixel, which are red, green, blue and intensity.
 - [United States Census Bureau: Road types and vectors](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2021&layergroup=Roads)
 - San Francisco Municipal Transportation Agency: [Stop signs](https://data.sfgov.org/Transportation/Stop-Signs/4542-gpa3/about_data), [Bus stops](https://data.sfgov.org/Transportation/Muni-Stops/i28k-bkz6/about_data), and [Paving](https://data.sfgov.org/d/5wbp-dwzt/about) datasets
 - [uszipcode python database](https://pypi.org/project/uszipcode/)
@@ -21,16 +21,16 @@ In the US, 42,000 traffic deaths and millions more injuries occur each year. 31%
 Multinomial Logistic Regression
 The Multinomial Logistic Regression model is the recommended model used to predict the multi-class classification bins of traffic collisions. The model was observed to have the highest weighted F1 score and significantly shorter training time compared to the other modeling experiments performed.
 
-<img width="680" height="517" alt="image" src="https://github.com/user-attachments/assets/a4f4a84b-ad30-4e53-a37b-899753797251" />
-<div align="center">Fig. A: Multinomial Logistic Regression Model Training Loss Curve</div>
+<div align="center"><img width="680" height="517" alt="image" src="https://github.com/user-attachments/assets/a4f4a84b-ad30-4e53-a37b-899753797251" />
+Fig. A: Multinomial Logistic Regression Model Training Loss Curve
 <br>
 
 <img width="602" height="648" alt="image" src="https://github.com/user-attachments/assets/c7f0c0cc-1f3a-4e96-b1af-760f6d5c4869" />
-<div align="center">Fig. B: Confusion Matrix of Normalized Class F1 Scores</div>
+Fig. B: Confusion Matrix of Normalized Class F1 Scores
 <br>
 
 <img width="970" height="314" alt="image" src="https://github.com/user-attachments/assets/bc6a6dc8-671a-4617-9958-ddf519daf4f9" />
-<div align="center">Fig. C: Multi-Class Classification Model Training Summary</div>
+Fig. C: Multi-Class Classification Model Training Summary</div>
 <br>
 
 ## Data Pre-Processing
@@ -57,8 +57,10 @@ The tiles data frame was expanded with street characteristics from various data 
 Pre-processing:
 - Removed tiles without road data
 - Read image files with tifffile package
-- Standardized image resolution to 148 x 188
-<br>
+- Road vectors overlaid on satellite images 
+- Standardized image resolution to 148 x 188 (translates roughly to 100 m x 100 m tiles)
+
+<img width="614" height="506" alt="image" src="https://github.com/user-attachments/assets/b7265a9f-c257-4d74-a968-3be996c6c0bd" /><br>
 
 **Feature Engineering: Splitted Features with historical and future data**
 
