@@ -9,15 +9,10 @@ Fig 0. Output of our ML model predicting collisions.
 # Data Sources
 
 - [TransBASE Dashboard - City of San Francisco: Traffic Collision](https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Injury/ubvf-ztfx)
-
 - [National Oceanic & Atmospheric Administration: Satellite images](https://coast.noaa.gov/dataviewer/#/imagery/search/-13639308.671664422,4538340.267087154,-13620556.11994757,4552710.429571103)
-
 - [United States Census Bureau: Road types and vectors](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2021&layergroup=Roads)
-
 - San Francisco Municipal Transportation Agency: [Stop signs](https://data.sfgov.org/Transportation/Stop-Signs/4542-gpa3/about_data), [Bus stops](https://data.sfgov.org/Transportation/Muni-Stops/i28k-bkz6/about_data), and [Paving](https://data.sfgov.org/d/5wbp-dwzt/about) datasets
-
-​- [uszipcode python database](https://pypi.org/project/uszipcode/)
-
+- [uszipcode python database](https://pypi.org/project/uszipcode/)
 - Extracted [OpenStreetMap](https://www.openstreetmap.org/#map=4/38.01/-95.84) data using [PyROSM](https://pyrosm.readthedocs.io/en/latest/) library. Street features from OpenStreetMap were found to have several null values and were not joined in the dataset.
 
 # Machine Learning Process
